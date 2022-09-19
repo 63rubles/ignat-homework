@@ -1,0 +1,20 @@
+.someClass {
+
+}
+
+.affair {
+    display: flex;
+    margin: 5px;
+}
+
+.item {
+    margin-right: 10px;
+}
+
+.priorityClass {
+    margin-right: 10px;
+}
+
+.button {
+    margin-right: 10px;
+}
