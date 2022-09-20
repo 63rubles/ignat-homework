@@ -1,0 +1,30 @@
+.sideBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    right: 200px;
+}
+.sideBar:hover {
+    right: 0px;
+}
+.btn {
+    width: 25px;
+    height: 25px;
+    background: darkslateblue;
+}
+
+.preJunior {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.Junior {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.juniorPlus {
+    text-decoration: none;
+    margin-right: 5px;
+}
