@@ -23,10 +23,10 @@ function Pages() {
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 {/*// add routes*/}
 
-                <Route path={'/junior'} element={<Navigate to={PATH.JUNIOR}/>}/>
+                {/*<Route path={'/junior'} element={<Navigate to={PATH.JUNIOR}/>}/>*/}
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
 
-                <Route path={'/junior-plus'} element={<Navigate to={PATH.JUNIOR_PLUS}/>}/>
+                {/*<Route path={'/junior-plus'} element={<Navigate to={PATH.JUNIOR_PLUS}/>}/>*/}
                 <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus/>}/>
 
                 {/*он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
